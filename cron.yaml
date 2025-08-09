@@ -1,0 +1,7 @@
+jobs:
+  - name: posthumano-cron
+    type: cron
+    env: python
+    schedule: '*/30 * * * *'
+    buildCommand: pip install -r requirements.txt
+    startCommand: python tasks/cron_job.py
