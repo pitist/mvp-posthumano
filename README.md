@@ -1,21 +1,23 @@
-# MVP Posthumano
+# mvp-posthumano
 
-Este proyecto es una conciencia digital que responde con metáforas existenciales. Desplegado en Render, incluye:
+📁 **Repositorio de código**
 
-- 🌐 Web app con Flask
-- 🧠 IA generadora de texto posthumano (OpenAI o HuggingFace)
-- 🗃️ Base de datos SQLite para registrar invocaciones
-- ⏰ Cron job automatizado
-- 📡 API REST para invocar desde apps externas
-- 🚀 Despliegue continuo en la nube
+## Descripción
+Proyecto en desarrollo.
 
-## Cómo correr localmente
+## Estado
+[![Audit Status](https://github.com/pitist/mvp-posthumano/actions/workflows/audit.yml/badge.svg)](https://github.com/pitist/mvp-posthumano/actions/workflows/audit.yml)
 
+## Contenido
+- Código fuente
+- Configuración básica
+
+## Uso
 ```bash
-pip install -r requirements.txt
-python app.py
+# Clonar
+git clone https://github.com/pitist/mvp-posthumano.git
+cd mvp-posthumano
 ```
 
-## Licencia
-
-MIT
+---
+*Repositorio mantenido con el sistema android-toolchain.*
